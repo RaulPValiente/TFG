@@ -19,7 +19,7 @@ contract Crowdfunding {
     uint256 public numberOfCampaigns = 0;
     
     // Tax Wallet and tax percentage
-    address public taxWallet = 0xE1e646Ea6326C072b79eb6A0aC4F515724d83048;
+    address public taxWallet = 0x27C70E2AC85631FEa53a1Ca28384fEb2c161b40b;
     uint256 public taxPercentage = 1;
 
    
@@ -88,3 +88,7 @@ contract Crowdfunding {
 
     }
 }
+
+// Wallet Private Key: a26f1f0234294e9f441f8c73bc4cdf1d7e5ab779c4b92d1eb8d1a075353ea4c8
+// Thirdweb Client ID: 23f367c462a36456d61d8321e9c3aaec
+// Thirdweb SecretKey: Y1sGqSq-f9FPiXzF5ODeLybPxr3BAnJ5m-7h1WuRCyTskZHZhGzoIjjaGqih8zBq4XkZba-Q4BZBvBowdVPxZA
